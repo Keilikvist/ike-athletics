@@ -2,12 +2,22 @@
   display: block;
   margin: auto 0;
   position: relative;
-  margin-top: 50px;
+  margin-top: 2px;
+  background-color: #2b3035;
 }
 
-h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+body {
+  background-color: #f5f2f0;
+}
+
+.kid-camp,
+.sac-camp {
+  border-radius: 30px;
+}
+
+.banquet,
+.kid-camp,
+.sac-camp {
+  height: 300px;
+  width: 220px;
 }
