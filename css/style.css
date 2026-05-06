@@ -1,4 +1,6 @@
-.container {
+.banner-container {
+  display: block;
+  margin: auto 0;
   position: relative;
   margin-top: 50px;
 }
