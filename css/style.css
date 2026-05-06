@@ -6,18 +6,42 @@
   background-color: #2b3035;
 }
 
+.logo {
+  opacity: 0.8;
+}
+
 body {
   background-color: #f5f2f0;
 }
 
-.kid-camp,
-.sac-camp {
-  border-radius: 30px;
+h1 {
+  font-weight: 900;
 }
 
 .banquet,
 .kid-camp,
 .sac-camp {
+  border-radius: 30px;
   height: 300px;
   width: 220px;
+  transition: all 150ms ease-in-out;
+}
+
+.banquet:hover {
+  transform: scale(2);
+}
+
+.kid-camp:hover {
+  transform: scale(2);
+}
+
+.sac-camp:hover {
+  transform: scale(2);
+}
+
+.coach {
+  width: 450px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
 }
