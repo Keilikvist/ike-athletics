@@ -18,6 +18,16 @@ h1 {
   font-weight: 900;
 }
 
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.col-md-5 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .banquet,
 .kid-camp,
 .sac-camp {
