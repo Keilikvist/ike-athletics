@@ -18,14 +18,28 @@ h1 {
   font-weight: 900;
 }
 
-.video {
-  width: 100%;
-  aspect-ratio: 16 / 9;
+p {
+  font-size: large;
+  padding: 0 40px;
 }
 
-.col-md-5 {
-  max-width: 1200px;
+h4 {
+  padding-left: 40px;
+}
+
+h5 {
+  line-height: 2em;
+}
+
+.vid-container {
   margin: 0 auto;
+  padding: 4px;
+}
+
+.video {
+  width: 100%;
+  padding: 10px;
+  aspect-ratio: 16 / 9;
 }
 
 .banquet,
@@ -50,8 +64,12 @@ h1 {
 }
 
 .coach {
-  width: 450px;
-  height: 300px;
+  width: 580px;
+  height: 400px;
   display: block;
   margin: 0 auto;
+}
+
+.col-md-2 {
+  background-color: white;
 }
