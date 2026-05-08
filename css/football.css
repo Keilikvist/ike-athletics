@@ -14,7 +14,7 @@ body {
   opacity: 0.5;
 }
 
-h1 {
+.banner {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -56,6 +56,35 @@ a {
   text-decoration: none;
 }
 
+.float-img-instagram {
+  float: right;
+  margin: 10px;
+  width: 15%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.float-img-twitter {
+  float: left;
+  margin: 10px;
+  width: 15%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.float-img-twitter,
+.float-img-instagram {
+  transition: all 150ms ease-in-out;
+}
+
+.float-img-twitter:hover {
+  transform: scale(1.5);
+}
+
+.float-img-instagram:hover {
+  transform: scale(1.5);
+}
+
 .hype {
   margin: 0 auto;
   width: 550px;
@@ -70,4 +99,29 @@ a {
   text-align: center;
   background-color: rgb(251, 252, 210);
   border-radius: 10px;
+}
+
+.announcements {
+  font-weight: 900;
+}
+
+.moms,
+.kid-camp,
+.sac-camp {
+  border-radius: 30px;
+  height: 300px;
+  width: 220px;
+  transition: all 150ms ease-in-out;
+}
+
+.moms:hover {
+  transform: scale(2);
+}
+
+.kid-camp:hover {
+  transform: scale(2);
+}
+
+.sac-camp:hover {
+  transform: scale(2);
 }
