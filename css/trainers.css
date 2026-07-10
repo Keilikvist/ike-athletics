@@ -140,6 +140,18 @@ a {
   transform: scale(2);
 }
 
+.img-fluid {
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.trainer_application {
+  font-size: 24px;
+  text-decoration: underline;
+  color: #937803;
+}
+
 .schedule-image {
   display: block;
   margin: 0 auto;
