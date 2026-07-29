@@ -1,0 +1,165 @@
+body {
+  background-color: #f5f2f0;
+}
+
+.banner-container {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5px;
+  background: linear-gradient(
+    180.2deg,
+    rgb(30, 33, 48) 6.8%,
+    rgb(74, 98, 110) 131%
+  );
+}
+
+.logo {
+  opacity: 0.5;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+  font-family: "Rubik Dirt", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-logo {
+  border-radius: 20px;
+  border-color: black;
+  opacity: 0.9;
+}
+
+.col-md-5 {
+  display: flex;
+  justify-content: right;
+}
+
+.breakout {
+  width: 480px;
+  height: 300px;
+}
+
+p {
+  font-size: large;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h5 {
+  line-height: 2em;
+}
+
+.swoop {
+  background-color: white;
+}
+
+a {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+.float-img-instagram {
+  float: right;
+  margin: 10px;
+  width: 15%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.float-img-twitter {
+  float: left;
+  margin: 10px;
+  width: 15%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.float-img-twitter,
+.float-img-instagram {
+  transition: all 150ms ease-in-out;
+}
+
+.float-img-twitter:hover {
+  transform: scale(1.5);
+}
+
+.float-img-instagram:hover {
+  transform: scale(1.5);
+}
+
+.hype {
+  margin: 0 auto;
+  width: 550px;
+  text-align: center;
+  background-color: rgb(251, 252, 210);
+  border-radius: 10px;
+}
+
+.team {
+  margin: 0 auto;
+  width: 730px;
+  text-align: center;
+  background-color: rgb(251, 252, 210);
+  border-radius: 10px;
+}
+
+.announcements,
+.schedule {
+  font-weight: 900;
+}
+
+.moms,
+.kid-camp,
+.sac-camp {
+  border-radius: 30px;
+  height: 300px;
+  width: 220px;
+  transition: all 150ms ease-in-out;
+}
+
+.moms:hover {
+  transform: scale(2);
+}
+
+.kid-camp:hover {
+  transform: scale(2);
+}
+
+.sac-camp:hover {
+  transform: scale(2);
+}
+
+.schedule-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.coach-headshot,
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.coach-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+}
