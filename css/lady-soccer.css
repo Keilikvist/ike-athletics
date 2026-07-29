@@ -145,14 +145,21 @@ a {
   margin: 0 auto;
 }
 
-.coach-bg {
-  background-color: rgb(248, 238, 212);
+.coach-headshot,
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  padding-bottom: 10px;
   padding-top: 10px;
 }
 
-.coach-headshot {
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  padding-top: 10px;
+.coach-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
 }
