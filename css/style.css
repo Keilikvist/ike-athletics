@@ -8,6 +8,12 @@
   background-color: #2b3035;
 }
 
+.nav-logo {
+  border-radius: 20px;
+  border-color: black;
+  opacity: 0.9;
+}
+
 .logo {
   opacity: 0.8;
 }
