@@ -162,4 +162,5 @@ a {
 
 .card {
   border-radius: 10px;
+  background: linear-gradient(to top, #997300, #ffc000);
 }
