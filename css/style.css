@@ -54,11 +54,11 @@ h5 {
 }
 
 .banquet,
-.kid-camp,
+.sports-calendar,
 .sac-camp {
   border-radius: 30px;
   height: 300px;
-  width: 220px;
+  width: 426px;
   transition: all 150ms ease-in-out;
 }
 
@@ -66,7 +66,7 @@ h5 {
   transform: scale(2);
 }
 
-.kid-camp:hover {
+.sports-calendar:hover {
   transform: scale(2);
 }
 
